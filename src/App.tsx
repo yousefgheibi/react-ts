@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { Container } from './components/Container';
 
 function App() {
   return (
     <div className="App">
-      <Button handleClick={(event, id)=> console.log('clicked', event)} />
-      <Input value="" handleChange={(event)=> console.log(event)} />
+      <Container styles={{border:'1px solid #3333', padding: '1rem'}}/>
     </div>
   );
 }
