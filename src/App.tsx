@@ -5,13 +5,12 @@ import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User } from './components/state/User';
+import { Counter } from './components/state/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Container styles={{border:'1px solid #3333', padding: '1rem'}}/>
-      <LoggedIn />
-      <User />
+      <Counter />
     </div>
   );
 }
